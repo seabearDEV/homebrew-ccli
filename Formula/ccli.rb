@@ -11,16 +11,16 @@ class Ccli < Formula
 
   on_macos do
     url "https://github.com/seabearDEV/codexCLI/releases/download/v0.4.0/ccli-macos-universal"
-    sha256 "13b1688dc18b2c864f8f83beec55d78d9e6f3196a7a6eb86330c6f4f332d6fe2"
+    sha256 "315d45149c240d9297fe1ad5e135903f62f10ff2f6fb25dfbc4c32dd677111aa"
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/seabearDEV/codexCLI/releases/download/v0.4.0/ccli-linux-arm64"
-      sha256 "bd8ed86b0dd74950d03578061c6729fc2eb87c590d84bfc346715433324fecdc"
+      sha256 "bb00529db8f8838842b393a52d728c5bc023c91a92d097a9891c48702f7f47b4"
     else
       url "https://github.com/seabearDEV/codexCLI/releases/download/v0.4.0/ccli-linux-x64"
-      sha256 "d004c6e4db1e2dc920da1b3b45fffa62620a31a36f977edc4c32c733d4c0ef06"
+      sha256 "6987d442a372f4b44bd7f42d70f6f59ab618640b3241d9ac73277e69e7c3a512"
     end
   end
 
