@@ -1,7 +1,7 @@
 class Ccli < Formula
   desc "Command-line information store for quick reference of frequently used data"
   homepage "https://github.com/seabearDEV/codexCLI"
-  version "1.8.0"
+  version "1.9.0"
   license "MIT"
 
   livecheck do
@@ -10,17 +10,17 @@ class Ccli < Formula
   end
 
   on_macos do
-    url "https://github.com/seabearDEV/codexCLI/releases/download/v1.8.0/ccli-macos-universal"
-    sha256 "3adf6a3cecffbc12ff7262c3bf882cd28f079d35728bbbf22d32f6483de3d620"
+    url "https://github.com/seabearDEV/codexCLI/releases/download/v1.9.0/ccli-macos-universal"
+    sha256 "c4386db2802397be542f954b6c86371bb910df45a620f09677ac9e4ea851c7e3"
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/seabearDEV/codexCLI/releases/download/v1.8.0/ccli-linux-arm64"
-      sha256 "1f5182dac6003a274aa3fdd5b82a7597f2935f759953bee28b2f3a5d10a7b26d"
+      url "https://github.com/seabearDEV/codexCLI/releases/download/v1.9.0/ccli-linux-arm64"
+      sha256 "a7f3e540c1bf784e13194eb6b206180d81a549eb8632b117d4ecfdeea1ad788c"
     else
-      url "https://github.com/seabearDEV/codexCLI/releases/download/v1.8.0/ccli-linux-x64"
-      sha256 "533e5b23df1f21fcad4454d6d41ecfb98b5156a736ef33f576e6ca1bdeda1b60"
+      url "https://github.com/seabearDEV/codexCLI/releases/download/v1.9.0/ccli-linux-x64"
+      sha256 "3f3010a59f1c62fb3698326ad4dcced48849f77dba1d0d8863cdcb43d159d7ef"
     end
   end
 
