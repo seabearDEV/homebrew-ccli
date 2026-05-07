@@ -1,7 +1,7 @@
 class RvrBeta < Formula
   desc "Bicameral memory for AI-assisted development — CLI + MCP server bootstrapping persistent project context across sessions"
   homepage "https://github.com/seabearDEV/reverie"
-  version "1.0.0-beta.2"
+  version "1.0.0-beta.3"
   license "MIT"
 
   livecheck do
@@ -10,17 +10,17 @@ class RvrBeta < Formula
   end
 
   on_macos do
-    url "https://github.com/seabearDEV/reverie/releases/download/v1.0.0-beta.2/rvr-macos-universal"
-    sha256 "ceb29c6335c2d564352d9cd5cab67acf2fe560a3d907e8605dbe0323d6dff7a6"
+    url "https://github.com/seabearDEV/reverie/releases/download/v1.0.0-beta.3/rvr-macos-universal"
+    sha256 "e7dced002f28777c8acb1303d158d9cd605cfa57f229562e2b0c8262c50608ae"
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/seabearDEV/reverie/releases/download/v1.0.0-beta.2/rvr-linux-arm64"
-      sha256 "c369692080b12923571961949b180e4b9c1f7b17335b63bc0ce76cfe27d8bc65"
+      url "https://github.com/seabearDEV/reverie/releases/download/v1.0.0-beta.3/rvr-linux-arm64"
+      sha256 "9921c2e82397e88a1d84d63cf224b795b11428b7efa7a8f4667fd15967419bd2"
     else
-      url "https://github.com/seabearDEV/reverie/releases/download/v1.0.0-beta.2/rvr-linux-x64"
-      sha256 "a649490cdd0f1da225c32bd68f5249cab1187e4d3d577684a9d71d7f6d675604"
+      url "https://github.com/seabearDEV/reverie/releases/download/v1.0.0-beta.3/rvr-linux-x64"
+      sha256 "0eb05ddb5940a7195ccbe1d03a09e621ffcbdb8afac8ea0bc5bad47d7a80d76d"
     end
   end
 
